@@ -1,10 +1,15 @@
 body {
   background-color: #001422;
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
 }
 .circle {
   background-color: rebeccapurple;
-
+  position: absolute;
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -13,22 +18,48 @@ body {
   background-image: radial-gradient(
     69.62% 69.62% at 50% 50%,
     #ea8bfa 0%,
-    #7526f6 100%
+    #7526f5 100%
   );
+  width: 120px;
+  height: 120px;
+  top: -100px;
+  left: -80px;
 }
 .circle-2 {
+  height: 360px;
+  width: 360px;
   background-image: radial-gradient(
     63.76% 63.76% at 50% 50%,
     #ff00c7 0%,
-    #bd96ff 0.01%,
+    #bd95ff 0.01%,
     #a661ff 32.29%,
     #6100ff 98.59%
   );
+  top: 50px;
+  left: 350px;
 }
 .circle-3 {
+  height: 220px;
+  width: 220px;
   background-image: radial-gradient(
     67.47% 67.47% at 50% 50%,
     #fed0ff 0%,
     #7f00ff 100%
   );
+  top: 400px;
+  left: -300px;
+}
+.card-container {
+  position: relative;
+}
+.card {
+  height: 500px;
+  width: 400px;
+  background-image: linear-gradient(
+    148deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
 }
