@@ -1,0 +1,34 @@
+body {
+  background-color: #001422;
+  margin: 0;
+}
+.circle {
+  background-color: rebeccapurple;
+
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.circle-1 {
+  background-image: radial-gradient(
+    69.62% 69.62% at 50% 50%,
+    #ea8bfa 0%,
+    #7526f6 100%
+  );
+}
+.circle-2 {
+  background-image: radial-gradient(
+    63.76% 63.76% at 50% 50%,
+    #ff00c7 0%,
+    #bd96ff 0.01%,
+    #a661ff 32.29%,
+    #6100ff 98.59%
+  );
+}
+.circle-3 {
+  background-image: radial-gradient(
+    67.47% 67.47% at 50% 50%,
+    #fed0ff 0%,
+    #7f00ff 100%
+  );
+}
